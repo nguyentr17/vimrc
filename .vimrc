@@ -20,9 +20,6 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
-Plugin 'junegunn/goyo.vim'
-Plugin 'tpope/vim-jdaddy'
-Plugin 'cohama/lexima.vim'
 
 
 
@@ -73,7 +70,7 @@ set mouse=a
 
 " Clipboard sharing on mac
 " ===================================================================
-set clipboard=unnamed
+" set clipboard=unnamed
 
 " Read-only text settings
 " ===================================================================
@@ -82,9 +79,9 @@ set list
 
 " tab settings
 " ===================================================================
-set tabstop=2     "  tabs are at proper location
+set tabstop=4     "  tabs are at proper location
 set expandtab     "  don't use actual tab character (ctrl-v)
-set shiftwidth=2 "  indenting is 4 spaces
+set shiftwidth=4 "  indenting is 4 spaces
 set autoindent    "  turns it on
 set smartindent   "  does the right thing (mostly) in programs
 set cindent       "  stricter rules for C programs
